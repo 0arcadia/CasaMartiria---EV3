@@ -1091,3 +1091,76 @@ img, video {
   overflow-x: auto;
   display: block;
 }
+
+@media (max-width: 767px) {
+  .why-choose-section .row.my-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .why-choose-section .feature {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .why-choose-section h2.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .why-choose-section h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .why-choose-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .why-choose-section .img-wrap {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .why-choose-section .img-wrap img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .why-choose-section .row.justify-content-between {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-image-group {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
+
+  .hero-part {
+    height: 200px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+  }
+
+  .hero {
+    padding: 2rem 1rem !important;
+  }
+
+  .hero .container {
+    padding: 0 1rem;
+  }
+
+  .hero .intro-excerpt {
+    padding-top: 1rem;
+  }
+}
