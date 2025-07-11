@@ -963,3 +963,131 @@ textarea {
 .expandable-media:hover {
     transform: scale(1.02);
 }
+
+/* media query for responsive design --> */
+
+/* ==== Ajustes generales ==== */
+@media (max-width: 991px) {
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .product-title {
+    font-size: 1rem;
+  }
+
+  .hero .container {
+    padding: 0 1rem;
+  }
+}
+
+/* ==== HERO Section Fix ==== */
+@media (max-width: 767px) {
+  .hero .intro-excerpt {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+  }
+
+  .hero .hero-img-wrap {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero .hero-img-wrap img {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+  }
+
+  .hero .hero-img-wrap:after {
+    display: none !important;
+  }
+}
+
+/* ==== Misión y Visión Adaptable ==== */
+@media (max-width: 767px) {
+  .mision-vision {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .mision-vision article {
+    padding: 20px 10px;
+  }
+}
+
+/* ==== Hero-image-group en móvil ==== */
+@media (max-width: 767px) {
+  .about-page .hero-image-group,
+  .shop-page .hero-image-group {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about-page .hero-part,
+  .shop-page .hero-part {
+    height: 200px;
+    background-size: cover !important;
+  }
+}
+
+/* ==== Footer Ajustes ==== */
+@media (max-width: 767px) {
+  .sofa-img {
+    display: none !important;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-brand {
+    margin-bottom: 20px;
+  }
+
+  .footer-text {
+    padding: 10px 0;
+  }
+
+  .footer-social {
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+}
+
+/* ==== Imágenes generales ==== */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==== Tabla scrollable ==== */
+.site-blocks-table {
+  overflow-x: auto;
+  display: block;
+}
