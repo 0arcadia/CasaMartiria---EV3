@@ -1129,6 +1129,7 @@ img, video {
   .why-choose-section p {
     font-size: 14px;
     line-height: 1.6;
+    margin: 0 auto;
   }
 
   .why-choose-section .img-wrap {
@@ -1146,5 +1147,6 @@ img, video {
   .why-choose-section .row.justify-content-between {
     flex-direction: column;
     gap: 30px;
+    align-items: center;
   }
 }
