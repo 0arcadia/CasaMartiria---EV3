@@ -1,3 +1,7 @@
+Editor: Paulette Carrasco
+Prueba de página web para Casa Martiria
+
+
 Template Name: Furni
 Template Author: Untree.co
 Template License: https://creativecommons.org/licenses/by/3.0/
