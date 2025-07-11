@@ -1137,39 +1137,3 @@ img, video {
     gap: 30px;
   }
 }
-
-@media (max-width: 767px) {
-  .hero-image-group {
-    display: flex;
-    flex-direction: column;
-    height: auto !important;
-  }
-
-  .hero-part {
-    height: 200px !important;
-    background-size: cover !important;
-    background-position: center !important;
-    width: 100%;
-  }
-
-  .hero {
-    padding: 2rem 1rem !important;
-  }
-
-  .hero .container {
-    padding: 0 1rem;
-  }
-
-  .hero .intro-excerpt {
-    padding-top: 1rem;
-    overflow: visible !important;       
-    max-height: none !important;        
-  }
-  
-  .hero h1,
-  .hero p,
-  .hero .firma {
-    margin: 0 0 1rem 0;
-    line-height: 1.4;
-  }
-}
