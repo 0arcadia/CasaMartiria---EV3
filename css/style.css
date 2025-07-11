@@ -1097,6 +1097,8 @@ img, video {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center; 
+    padding: 0 1rem;
   }
 
   .why-choose-section .feature {
@@ -1109,8 +1111,10 @@ img, video {
 
   why-choose-section .feature .icon {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
   }
-  
+
   .why-choose-section h2.section-title {
     font-size: 1.5rem;
     margin-bottom: 20px;
