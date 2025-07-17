@@ -338,6 +338,47 @@ a {
   background-color: #ffffff;
 }
 
+@media (max-width: 768px) {
+.about-page .hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  justify-content: center; 
+  height: 550px; 
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+  .about-page .hero-image-group {
+    position: relative;
+    display: block;
+    height: auto;
+  }
+
+ .about-page .hero-part {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px; 
+  }
+
+  /* Ajuste individual de cada imagen */
+  .about-page .bg-1 {
+    height: 100px;
+    background-position: center 58%; 
+  }
+
+  .about-page .bg-2 {
+    height: 100px;
+    background-position: center 58%;
+  }
+
+  .about-page .bg-3 {
+    height: 100px;
+    background-position: center 27%;
+  }
+}
+
 .about-page .why-choose-about h2,
 .about-page .why-choose-about p,
 .about-page .why-choose-about h3 {
@@ -345,7 +386,7 @@ a {
 }
 
 .about-page .why-choose-about .feature p {
-  color: #777777; /* Un poco más claro si quieres mejor contraste */
+  color: #777777; 
 }
 
 .about-page .about-founder-section {
