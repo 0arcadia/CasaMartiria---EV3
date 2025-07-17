@@ -1,0 +1,96 @@
+/* ====== Modal Base ====== */
+.media-modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
+    animation: fadeIn 0.3s ease;
+}
+
+/* ====== Contenedor del contenido ====== */
+.media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    max-width: 90%;
+    margin: 60px auto;
+    position: relative;
+}
+
+/* ====== Imagen / Video ====== */
+.media-content {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    animation: scaleUp 0.3s ease;
+}
+
+/* ====== Botón Cerrar ====== */
+.media-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+    transition: color 0.2s;
+}
+
+.media-close:hover {
+    color: #ccc;
+}
+
+/* ====== Caption (Texto descriptivo) ====== */
+#mediaCaption {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    opacity: 0.9;
+}
+
+/* ====== Animaciones ====== */
+@keyframes fadeIn {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { background-color: rgba(0, 0, 0, 0.9); }
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* ====== Responsivo ====== */
+@media (max-width: 768px) {
+    .media-container {
+        max-width: 95%;
+        height: auto;
+        margin: 100px auto;
+    }
+
+    .media-content {
+        width: 100%;
+        height: auto;
+    }
+
+    #mediaCaption {
+        font-size: 16px;
+    }
+
+    .media-close {
+        font-size: 30px;
+        top: 15px;
+        right: 20px;
+    }
+}
+
