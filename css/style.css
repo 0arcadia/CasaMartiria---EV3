@@ -808,6 +808,13 @@ color: #fff;
   padding: 0 30px; 
 }
 
+@media (max-width: 767px) {
+  .grid-galeria {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px; /* Opcional: reducir espacio entre imágenes */
+    padding: 0 15px; /* Opcional: menos padding lateral */
+  }
+}
 
 @media (min-width: 992px) {
     .col-lg-4 {
