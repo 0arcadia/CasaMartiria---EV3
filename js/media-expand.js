@@ -89,3 +89,5 @@ function closeMediaModal() {
     modal.querySelectorAll('video').forEach(video => video.pause());
 }
 
+//modal para galeria
+
