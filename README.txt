@@ -1,6 +1,6 @@
 Editor: Paulette Carrasco
 
-Página con responsiveness para el emprendimiento de Casa.Martiria
+Página con responsiveness para el emprendimiento de Casa.Martiria: emprendimiento de alfombras en tecnica tufting, la emprendedora quería un sitio responsivo, elegante, en el cual las alfombras fueran lo que más destacaran y que en la pagina web se pudiera ver no solo las alfombras a la venta sino que tambien parte del proceso de maquetación y confección.
 
 Se utilizo un template base para la distribución de contenido 
 haciendo migración de html/css previamente construido
